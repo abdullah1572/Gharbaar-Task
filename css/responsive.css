@@ -1,0 +1,568 @@
+/* Responsivness */
+@media (max-width: 1920px) {
+
+    .mobilebnner{
+      display: none;
+    }
+    .mobilep{
+      display: none;
+    }
+    .desktop{
+      display: block;
+    }
+    .mobilelower{
+      display: none;
+    }
+  }
+  @media (max-width: 1500px) {
+    .slider_centurs .owl-item.active.center .slider-card img{
+      height: 306px;
+    }
+    .slider{
+      width: 200px;
+      height: 235px;
+      margin-top: 40px;
+    }
+    .Seo .innedm{
+      top: 171px;
+      width: 38%;
+    }
+    .Seo .inner_img{
+      margin-top: 128px;
+    }
+    .Steps .main_card{
+      width: 44%;
+    }
+    .schedule .shbds{
+      margin-left: 80px;
+    }
+    .schedule .heading_text h3{
+      font-size: 40px;
+    }
+    .slider span{
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(273px);
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    .Franchise .ouuterdivs .inner-dibs{
+      padding: 0px 25px;
+    }
+    .schedule .heading_text h3{
+      font-size: 37px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .textres{
+      font-size: 46px!important;
+    }
+    .Seo .inner_img{
+      margin-top: 228px;
+    }
+    .Seo .innedm{
+      top: 271px;
+    }
+    .Steps .circle{
+      width: 97px;
+      height: 97px;
+    }
+    .schedule .heading_text h3{
+      font: normal normal 800 37px/50px gilorybold;
+      padding-bottom: 6px;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    
+    
+  }
+  
+  @media (max-width: 1199px) {
+    .navbar-light .navbar-nav .nav-link{
+      margin-left: 10px;
+    }
+    .slider{
+      width: 155px;
+      height: 198px;
+    }
+    .slider span{
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(216px);
+    }
+    .BannerSection .right-side{
+      margin-top: 156px;
+    }
+    .Steps .main_card{
+      width: 57%;
+    }
+    .Franchise .ouuterdivs .inner-dibs{
+      width: 50%;
+    }
+    .Franchise .ouuterdivs{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Footer .outer-fot .inner-outer .lower h6{
+      padding-left: 48px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav{
+      text-align: center;
+    }
+    .navbar-collapse{
+      text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link{
+      margin-left: 0px;
+    }
+    .buttoncontact{
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+    .BannerSection .right-side{
+      margin-top: 95px;
+    }
+    .slider {
+      width: 200px;
+      height: 230px;
+    }
+    .slider span {
+      transform: rotateY(calc(var(--i)*45deg)) translateZ(273px);
+    }
+    .navbar-light .navbar-toggler{
+  
+    }
+    .BannerSection .left-side{
+      text-align: center;
+    }
+    .BannerSection .left-side h4{
+      margin: 0 auto;
+    }
+    .BannerSection .left-side button{
+      margin: 0 auto;
+      margin-top: 57px;
+    }
+    .navbar{
+      justify-content: center;
+    }
+    .navbar-light .navbar-toggler {
+      position: absolute;
+      left: 0;
+      top: 29px;
+    }
+    .navbar-light .navbar-toggler i{
+      color: #ffffff;
+      font-weight: 400;
+      font-size: 26px;
+    }
+    .Seo .innedm{
+      display: none;
+    }
+    .Seo .inner_img{
+      display: none;
+    }
+    .Steps .main_card{
+      width: 80%;
+    }
+    .schedule .inner_img{
+      display: none;
+    }
+    .schedule .my-btn button{
+      margin-top: 39px;
+    }
+    .Footer .outer-fot .inner-outer .lower h6{
+      padding-left: 28px;
+    }
+    .Footer .outer-fot .inner-outer .upper .right{
+      margin-left: 42px;
+    }
+    .ghghg{
+      box-shadow: none;
+      border: none;
+    }
+    .slider_centurs .owl-item.active.center .slider-card img{
+      width: 58%;
+    }
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+      display: block;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+      position: absolute;
+      right: -10px;
+      top: 125px;
+    /* padding: 15px; */
+      width: 40px;
+      height: 40px;
+      font-size: 24px;
+      font-weight: 400!important;
+      background: #6184D8;
+      color: #ffffff;
+      border-radius: 50%;
+  }
+  .owl-carousel .owl-nav button.owl-prev{
+      position: absolute;
+      left: -10px;
+      top: 125px;
+      width: 40px;
+      height: 40px;
+      font-weight: 400!important;
+      /* padding: 15px; */
+      background: #6184D8;
+      color: #ffffff;
+      font-size: 24px;
+      border-radius: 50%;
+  }
+  .fa-angle-right{
+    font-weight: 500;
+  }
+  .fa-angle-left{
+    font-weight: 500;
+  }
+  .BannerSection {
+    background-image: unset;
+  }
+  .combonav{
+    background-image: url(/images/mobileback.png);
+    width: 100%;
+    background-size: cover;
+  }
+  }
+  
+  @media (max-width: 600px) {
+    .mobilebnner{
+      display: block;
+    }
+    .Navbar .navbar .navbar-brand{
+      font-size: 20px;
+      margin-right: 0px;
+    }
+    .BannerSection{
+      padding-top: 42px;
+      padding-bottom: 68px;
+    }
+    .textres{
+      font: normal normal 800 32px/40px gilorybold!important;
+    }
+    .BannerSection .left-side h4{
+      font: normal normal 800 34px/41px gilorybold;
+      width: 240px;
+    }
+    .BannerSection .left-side p{
+      font: normal normal normal 18px/25px Roboto!important;
+    }
+    .BannerSection .left-side button{
+      font: normal normal bold 18px/30px Roboto!important;
+    }
+    .slider{
+      display: none;
+    }
+    .Navbar{
+      border: none;
+    }
+  
+    .Tick{
+      background: url(/images/second-back.png);
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 52px;
+    }
+    .secondss{
+      font: normal normal 800 32px/40px gilorybold!important;
+      letter-spacing: 0px!important;
+      color: #FFFFFF!important;
+    }
+    .Tick .text{
+      margin-bottom: 28px;
+    }
+    .Tick .text_items .text1 span{
+      width: 40px;
+      margin-right: 17px;
+      align-items: unset!important;
+      padding-top: 6px;
+    }
+    .Tick .text_items .text1{
+      align-items: unset!important;
+      margin-bottom: 6px;
+    }
+    .Tick .text_items .text1 h6{
+      color: #ffffff;
+      font-size: 18px!important;
+      line-height: 25px!important;
+      font-weight: 500;
+      width: 295px;
+    }
+  
+    .slider_centurs .heading_text h3{
+      font-size: 28px!important;
+    }
+    .mobilep{
+      display: block;
+    }
+    .desktop{
+      display: none;
+    }
+    .slider_centurs .heading_text p{
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .slider_centurs .owl-item.active.center .slider-card img{
+      width: 82%;
+      height: 179px;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+      left: -27px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+      right: -27px;
+    }
+    .Centurs{
+      padding-top: 32px;
+    }
+    .owl-carousel{
+      height: 252px;
+    }
+    .owl-carousel .owl-stage-outer{
+      height: 295px;
+    }
+    .upper-seo-pad{
+      padding: 0px;
+    }
+    .Seo .heading_text p{
+      padding-right: 0px;
+    }
+    .Seo .heading_text h3{
+      text-align: center;
+    }
+    .Seo{
+      padding-top: 30px;
+      padding-bottom: 48px;
+    }
+    .five-pad{
+      padding: 0px;
+    }
+    .fifth {
+      padding-top: 41px;
+    }
+    .fifth .card_item .inner_text h6{
+      font-size: 20px;
+      line-height: 49px;
+      padding-bottom: 4px;
+    }
+    .fifth .card_item .inner_text p{
+      font-size: 16px!important;
+      line-height: 22px;
+    }
+    .hsbhshb{
+      padding: 0px;
+    }
+    .seven{
+      background: #08083D;
+      padding-top: 36px;
+      padding-bottom: 70px;
+    }
+    .seven .heading_text h3{
+      text-align: center;
+      padding-bottom: 0px;
+    }
+    .seven .heading_text p{
+      text-align: center;
+      font-size: 16px;
+      padding: 30px;
+    }
+    .seven .my_btn{
+      display: flex;
+      justify-content: center;
+    }
+    .seven .my_btn button{
+      font-size: 18px;
+      padding: 10px 41px;
+    }
+    .Franchise{
+      background-image: unset;
+      background-color: #617087;
+    }
+    .Franchise .ouuterdivs .inner-dibs{
+      width: 100%;
+    }
+    .Franchise .ouuterdivs .inner-dibs .dot{
+      padding-top: 30px;
+      width: 32px;
+      padding-bottom: 15px;
+    }
+    .Franchise .ouuterdivs .inner-dibs h5{
+      padding-bottom: 30px;
+      font-size: 16px;
+    }
+    .Franchise .ouuterdivs .inner-dibs h6{
+      font-size: 14px;
+      line-height: 20px;
+      padding-bottom: 36px;
+    }
+    .Franchise .ouuterdivs .inner-dibs .profile{
+      padding-bottom: 18px;
+      height: 193px;
+    }
+    .Franchise .ouuterdivs .inner-dibs h4{
+      font-size: 20px;
+      line-height: 6px;
+      margin-top: 10px;
+    }
+    .guarantee{
+      padding-top: 30px;
+      padding-bottom: 45px;
+    }
+    .guarantee .inner_img img{
+      width: 190px;
+      height: 162px;
+    }
+    .guarantee .heading_text p{
+      text-align: left;
+      font-size: 16px;
+    }
+    .guarantee .heading_text h6{
+      font-size: 17px;
+    }
+    .guarantee .my_btn button{
+      font-size: 18px;
+      padding: 10px 41px;
+    }
+    .paddd{
+      padding: 0px;
+    }
+    .schedule .shbds{
+      margin-left: 0px;
+      text-align: center;
+    }
+    .schedule{
+      padding-top: 28px;
+      padding-bottom: 45px;
+    }
+    .schedule .heading_text p{
+      font-size: 18px!important;
+      font-weight: 600!important;
+      font-family: roboto!important;
+    }
+    .schedule .my-btn button{
+      font-size: 18px;
+      padding: 10px 41px;
+    }
+    .Footer .outer-fot .inner-outer .upper{
+      display: none;
+    }
+    .Footer .outer-fot .inner-outer .lower{
+      display: none;
+    }
+    .Footer{
+      background: unset;
+      padding-top: 0px;
+    }
+    .mobilelower{
+      display: block;
+    }
+    .mobilelower {
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 7px;
+    }
+    .mobilelower h6{
+      font: normal normal 300 14px/19px roboto!important;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      padding-bottom: 12px;
+    }
+    .mobilelower h5{
+      font-size: 14px;
+      line-height: 19px;
+      font-family: roboto;
+      font-weight: 600;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      padding-bottom: 12px;
+    }
+    .Steps .outer .inners{
+      flex-wrap: wrap;
+    }
+    .Steps .outer .inners{
+      flex-direction: column-reverse;
+      align-items: baseline;
+    }
+    .Steps .icon{
+      margin: 0 auto;
+    }
+    .Steps{
+      background: transparent linear-gradient(174deg, #6184D8 0%, #08083D 200%) 0% 0% no-repeat padding-box!important;
+      padding-top: 30px;
+      padding-bottom: 40px;
+    }
+    .Steps .heading_text h3{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 22px;
+    }
+    .Steps .circle{
+      width: 57px;
+      height: 57px;
+    }
+    .Steps .main_circle{
+      margin-bottom: 10px;
+    }
+    .Steps .main_circle .circle img{
+      width: 49%;
+    }
+    .Steps .main h4{
+      font-size: 20px;
+      padding-bottom: 9px;
+    }
+    .Steps .main h1{
+      font-size: 28px!important;
+      line-height: 29px;
+      padding-bottom: 20px;
+    }
+    .Steps .main p{
+      font-size: 16px!important;
+      font-weight: 500!important;
+      font-family: roboto;
+      line-height: 22px;
+      padding-bottom: 22px;
+    }
+    .Steps .icon{
+      width: 20px;
+      height: 20px;
+    }
+    .Steps .main_card{
+      width: 90%;
+      padding-top: 30px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .Steps .main_card h3{
+      font-size: 32px;
+      text-align: center;
+      line-height: 41px;
+      padding-top: 0px;
+    }
+    .Steps .main_card p{
+      font-size: 18px;
+      font-family: roboto;
+      padding-bottom: 10px;
+    }
+    
+  }
+  
+  @media (max-width: 400px) {
+    .seven .heading_text p{
+      padding: 30px 0px;
+    }
+    .BannerSection .left-side button{
+      padding: 22px 30px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .Tick .text_items .text1 h6{
+      width: 233px;
+    }
+  }
